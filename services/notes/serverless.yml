@@ -1,3 +1,4 @@
+frameworkVersion: "3.32.2"
 # NOTE: update this with your service name
 service: notes-api
 
