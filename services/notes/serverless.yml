@@ -90,3 +90,4 @@ functions:
 
 resources:
   - ${file(resources/api-gateway-errors.yml)}
+  - ${file(resources/cognito-policy.yml)}
