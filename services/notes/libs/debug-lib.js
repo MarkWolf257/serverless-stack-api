@@ -3,7 +3,7 @@ import AWS from "aws-sdk";
 
 let logs;
 
-AWS.configure.logger = { log: debug };
+AWS.config.logger = { log: debug };
 
 export default function debug() {
     logs.push({
